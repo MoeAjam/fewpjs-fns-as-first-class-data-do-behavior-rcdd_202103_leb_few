@@ -12,7 +12,6 @@ function handleClick(e) {
 /* Write your implementation of greet() */
 function greet(t) {
   t= t.split(':');
-  t = `${t[o]}` + `${t[1]}`;
   t = parseInt(t[0]);
   if(t<12){
     return "Good Morning";
