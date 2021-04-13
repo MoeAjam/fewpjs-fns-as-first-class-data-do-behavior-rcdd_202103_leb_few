@@ -22,3 +22,6 @@ function greet(t) {
   }
 }
 /* Write your implementation of displayMessage() */
+function displayMessage(s) {
+  greeting = document.getElementById(#greeting).textContent = s;
+}
