@@ -13,7 +13,7 @@ function handleClick(e) {
 function greet(t) {
   t= t.split(':');
   t = `${t[o]}` + `${t[1]}`;
-  f = parseInt(t[0]);
+  t = parseInt(t[0]);
   if(t<12){
     return "Good Morning";
   } else if (t>17) {
