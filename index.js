@@ -23,5 +23,5 @@ function greet(t) {
 }
 /* Write your implementation of displayMessage() */
 function displayMessage(s) {
-  document.getElementById(#greeting).textContent = s;
+  document.getElementById(#greeting).innerHTML = s;
 }
